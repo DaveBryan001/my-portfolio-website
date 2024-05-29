@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+  <meta property="og:site_name" content="Dave Bryan Tamakloe">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Dave Bryan | Web Developer">
+  <meta property="og:description"
+    content="I'm a full stack web developer with a passion for creating beautiful websites and apps. Explore my portfolio and get in touch">
+  <meta property="og:image:secure_url" content="https://wwww.davebryan001.com/assets/img.png">
+  <meta property="og:url" content="https://davebryan.com">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@farleymatters">
+  <meta name="twitter:creator" content="@farleymatters">
+  <meta name="twitter:title" content="Matt Farley | Designer, Frontend Developer &amp; Mentor">
+  <meta name="twitter:description" content="I design and code beautifully simple things, and I love what I do.">
+  <meta name="twitter:image" content="https://mattfarley.ca/img/mf-og-brand.png">
+  <meta name="twitter:image:alt" content="Designer and developer tool illustrations">
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet" />
+  <title>Dave Bryan Tamakloe</title>
+  <link rel="stylesheet" href="styles/style.css" />
+  <link rel="stylesheet" href="styles/mediaqueries.css" />
+</head>
+
+<body>
+  <nav id="desktop-nav">
+    <div class="logo">Dave Bryan</div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#"></a></li>
+      </ul>
+    </div>
+  </nav>
+  <nav id="hamburger-nav">
+    <div class="logo">Dave Bryan</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div>
+        <ul class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+          <li><a href="#" onclick="toggleMenu()"></a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <section id="home">
+    <div class="picture-container">
+      <img class="my-pic" src="/assets/lavender outer.svg" alt="my profile avatar">
+    </div>
+    <div class="section-text">
+      <p class="section-text-p1">Hi, I'm</p>
+      <h1 class="title"> Dave Bryan</h1>
+      <p class="section-text-p2">Web Developer</p>
+      <div class="button-container">
+        <button class="btn btn-color-2" onclick="window.open('./assets/DaveBryan_Tamakloe_CV.pdf')">Download CV</button>
+        <button class="btn btn-color-1" onclick="location.href='#contact'">Contact me</button>
+      </div>
+      <div id="social-icons-container">
+        <img class="icon" src="/assets/linkedin_black_logo_icon.svg" alt="my linkedin profile"
+          onclick="location.href='https://linkedin.com/in/davebryan001'">
+        <img class="icon" src="/assets/github-logo_icon.svg" alt="my github profile"
+          onclick="location.href='https://github.com/davebryan001'">
+      </div>
+    </div>
+  </section>
+  <section id="about">
+    <p class="section-text-p1"> Get to know more</p>
+    <h1 class="title">About me</h1>
+    <div class="section-container">
+      <div class="section-pic-container">
+        <img class="about-pic" src="/assets/IMG_5898 (1).jpg" alt="profile picture">
+      </div>
+      <div class="about-me-comtainer">
+        <div class="about-containers">
+          <div class="details-container">
+            <img src="./assets/experience.svg" alt="experience icon" class="icon">
+            <h1>Experience</h1>
+            <p>1.5+ years <br>Full Stack Development</p>
+          </div>
+          <div class="details-container">
+            <img src="./assets/education.svg" alt="experience icon" class="icon">
+            <h1>Education</h1>
+            <p>Bsc. Animal Biology<br> and Conservation Science</p>
+          </div>
+        </div>
+        <div class="text-container">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt laborum natus aperiam delectus neque, quod
+            atque ratione! Aut dolorem praesentium iste delectus minus eaque debitis vel. Labore libero, iusto excepturi
+            saepe veniam tenetur, aliquid laborum sint, alias suscipit est maxime sapiente vel quos similique
+            voluptates. Reprehenderit quas aliquam recusandae eaque.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="experience">
+    <p class="section-text-p1">Explore My</p>
+    <h1 class="title">Experience</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container">
+          <h2 class="experience-subtitle"> Frontend Development</h2>
+          <div class="article-container">
+            <article>
+              <img src="assets/html5.svg" alt="experience icon" class="icon">
+              <div>
+                <h3>HTML</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="assets/css3.svg" alt="experience icon" class="icon">
+              <div>
+                <h3>CSS</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="assets/js.svg" alt="experience icon" class="icon">
+              <div>
+                <h3>JavaScript</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+            <article>
+              <img src="assets/figma.svg" alt="experience icon" class="icon">
+              <div>
+                <h3>Figma</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="details-container">
+          <h2 class="experience-subtitle"> Backend Development</h2>
+          <div class="article-container">
+            <article>
+              <img src="assets/python.svg" alt="experience icon" class="icon">
+              <div>
+                <h3>Python</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="assets/C.png" alt="experience icon" class="icon">
+              <div>
+                <h3>C</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="assets/git.svg" alt="experience icon" class="icon">
+              <div>
+                <h3>Git</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="assets/bash.png" alt="experience icon" class="icon">
+              <div>
+                <h3>Shell</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="assets/mysql.png" alt="experience icon" class="icon">
+              <div>
+                <h3>My SQL</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="projects">
+    <p class="section-text-p1"> Browse My Recent</p>
+    <h1 class="title">Projects</h1>
+    <div class="about-containers">
+      <div class="experience-details-container">
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="/assets/portfolio-project.png" alt="projects" class="project-img">
+          </div>
+          <h2 class="experience-subtitle project-title">Project One</h2>
+          <div class="button-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://www.github.com/davebryan'">
+              Github
+            </button>
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://www.github.com/davebryan'">
+              Live Demo
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="experience-details-container">
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="/assets/youtube-clone.png" alt="projects" class="project-img">
+          </div>
+          <h2 class="experience-subtitle project-title">Project One</h2>
+          <div class="button-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://www.github.com/davebryan'">
+              Github
+            </button>
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://www.github.com/davebryan'">
+              Live Demo
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="experience-details-container">
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="/assets/portfolio-project.png" alt="projects" class="project-img">
+          </div>
+          <h2 class="experience-subtitle project-title">Project One</h2>
+          <div class="button-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://www.github.com/davebryan'">
+              Github
+            </button>
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://www.github.com/davebryan'">
+              Live Demo
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="contact">
+    <p class="section-text-p1">Get in Touch</p>
+    <h1 class="title">Contact me</h1>
+    <div class="contact-info-container-main">
+      <div class="contact-info-container">
+        <img src="assets/email.png" alt="email icon" class="icon contact">
+        <p><a href="mailto:dave.tamakloe@gmail.com">dave.tamakloe@gmail.com</a></p>
+      </div>
+      <div class="contact-info-container">
+        <img src="assets/linkedin_black_logo_icon.svg" alt="linkedin icon" class="icon contact">
+        <p><a href="https:www.linkedin.com/in/davebryan001/">Linkedin</a></p>
+      </div>
+      <div class="contact-info-container">
+        <img src="assets/phone.png" alt="phone icon" class="icon contact">
+        <p>+233 55 673 4321</p>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <nav>
+      <div class="my-links-container">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#"></a></li>
+        </ul>
+      </div>
+    </nav>
+    <p>Copyright &#169; 2024 Dave Bryan Tamakloe. All Rights Reserved</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
