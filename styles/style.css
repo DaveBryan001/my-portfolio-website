@@ -300,7 +300,7 @@ section {
 }
 
 .details-container {
-  padding: 1.7rem;
+  padding: 1.5rem;
   flex: 1;
   border-radius: 2rem;
   border: rgb(163, 163, 163) 0.1rem solid;
@@ -319,7 +319,7 @@ section {
 
 .text-container {
   justify-content: center;
-  line-height: 1.5rem;
+  line-height: 1.7rem;
   /* flex-wrap: nowrap; */
   max-height: 100%;
 }
