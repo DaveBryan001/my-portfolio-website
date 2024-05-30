@@ -37,7 +37,7 @@ You can view a live demo of the website [here](https://davebryan.vercel.app).
 If you have any questions or would like to collaborate, feel free to reach out:
 
 - **Email**: [dave.tamakloe@gmail.com](mailto:dave.tamakloe@gmail.com)
-- **LinkedIn**: [linkedin.com/in/davebryan001](https://www.linkedin.com/in/davebryan001/)
+- **LinkedIn**: [Dave Bryan Tamakloe](https://www.linkedin.com/in/davebryan001/)
 ---
 
 Thank you for visiting my portfolio website! I hope you enjoy exploring my work.
