@@ -25,6 +25,7 @@
   }
 
   #experience,
+  #work-experience,
   .experience-details-container {
     margin-top: 2rem;
   }
@@ -51,6 +52,15 @@
 
   .about-containers {
     margin-top: 0;
+  }
+
+  .work-experience-item {
+    margin: 1.5rem 0;
+    padding: 1.5rem;
+  }
+
+  .work-description ul {
+    margin-left: 1.5rem;
   }
 }
 
