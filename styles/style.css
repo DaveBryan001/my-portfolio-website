@@ -169,10 +169,11 @@ nav ul li a:hover::after {
 /* ---------sections---------- */
 section {
   padding-top: 4vh;
-  height: 96vh;
+  height: auto;
+  min-height: 96vh;
   margin: 0 10rem;
   box-sizing: border-box;
-  min-height: fit-content;
+  padding-bottom: 4vh;
 }
 
 
@@ -341,6 +342,8 @@ section {
 
 #experience {
   position: relative;
+  min-height: fit-content;
+  padding-bottom: 2rem;
 }
 
 .experience-subtitle {
@@ -352,6 +355,8 @@ section {
 
 .experience-details-container {
   display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
 }
 
 .article-container {
@@ -360,6 +365,7 @@ section {
   text-align: initial;
   justify-content: space-around;
   gap: 2.5rem;
+  min-height: fit-content;
 }
 
 article {
@@ -414,6 +420,8 @@ article .icon {
   position: relative;
   text-align: center;
   padding: 2rem;
+  min-height: fit-content;
+  height: auto;
 }
 
 .work-experience-item {
